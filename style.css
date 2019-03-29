@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'VT323', monospace;
+    /* FOR HACKORS  */
+    /* background-color: black; */
+    color: chartreuse;
+}
+
+.container {
+    padding: 25px calc((100vw - 960px) / 2);
+}
+
+p {
+    font-size: 60px;
+}
+
+.ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: chartreuse;
+}
+
+.ball-wrapper {
+    display: flex;
+}
+
+.board {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 5%;
+    border: 5px solid;
+    border-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    color: #5ec474;
+}
